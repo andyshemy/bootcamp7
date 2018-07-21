@@ -1,0 +1,65 @@
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 48px;
+
+}
+
+h2:after{
+    content: '';
+    display: block;
+    width: 164px;
+    height: 7px;
+    background: #1abc9c;
+    margin: 30px auto;
+}
+
+.card {
+    float: left;
+    margin-right: 25px;
+    font-size: 0;
+    margin-bottom: 20px
+}
+
+.card:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.name {
+    text-transform: uppercase;
+    float: left;
+    background: #323232;
+    font-size: 18px;
+    width: 88%;
+    color: #FFF;
+    line-height: 40px
+}
+
+.price {
+    float: right;
+    background: #8c8c8c;
+    font-size: 18px;
+    width: 12%;
+ line-height: 40px
+}
+
+
+.main {
+    margin-top: 47px;
+
+}
+section {
+    margin-bottom: 50px;}
+
+.news{float:left;
+        width: 350px;
+    
+}
+
+h3 { }
+
+
+.img{padding:0;}

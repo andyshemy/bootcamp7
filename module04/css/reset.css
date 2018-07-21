@@ -16,5 +16,5 @@ ul {
 }
 
 button {
-    outline: none;
+    outline: none; !important
 }

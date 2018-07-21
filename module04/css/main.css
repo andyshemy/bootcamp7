@@ -3,7 +3,7 @@ h2 {
     text-transform: uppercase;
     font-family: Roboto;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     font-size: 48px;
 
 }
@@ -35,7 +35,8 @@ h2:after{
     font-size: 18px;
     width: 88%;
     color: #FFF;
-    line-height: 40px
+    line-height: 40px;
+    text-align: center;
 }
 
 .price {
@@ -47,6 +48,7 @@ h2:after{
 }
 
 
+
 .main {
     margin-top: 47px;
 
@@ -56,10 +58,50 @@ section {
 
 .news{float:left;
         width: 350px;
+        margin-right: 25px;
+        font-family: 'Open Sans', sans-serif;
     
 }
 
-h3 { }
+.news:last-child {margin-right: 0;}
+
+ .news img{
+    width: 350px;
+     height: 262px;
+     margin-bottom: 15px;
+      }
+
+h3 {font-size: 18px;}
+
+h3:after{
+    content: '';
+    display: block;
+    width: 164px;
+    height: 3px;
+    background: #1abc9c;
+    margin:15px 0 30px;
+}
 
 
-.img{padding:0;}
+p {font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+button {height: 45px;
+    width:160px;
+    background-color: #4ec6ab ;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    border-radius:5px;
+
+   
+}
+
+.card:nth-child(6) .name {
+   background-color: #1abc9c;}
+
+.card:nth-child(6) .price {
+    background-color: #7fd9c7;
+}
